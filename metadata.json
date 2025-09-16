@@ -1,0 +1,5 @@
+{
+  "name": "Caption Generator AI",
+  "description": "A modern, minimal, and user-friendly website to generate social media captions in Khmer. Supports platform selection, style customization, and auto-hashtag generation for Facebook, TikTok, and YouTube.",
+  "requestFramePermissions": []
+}
