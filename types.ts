@@ -1,7 +1,5 @@
 export enum Platform {
-    Facebook = 'Facebook',
-    TikTok = 'TikTok',
-    YouTube = 'YouTube'
+    Facebook = 'Facebook'
 }
 
 export enum Style {

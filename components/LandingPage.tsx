@@ -9,7 +9,7 @@ const features = [
   {
     Icon: FeaturesTargetIcon,
     title: 'សម្រាប់គ្រប់ Platform',
-    description: 'បង្កើត Caption សម្រាប់ Facebook, TikTok, និង YouTube ដោយ​គ្រាន់តែ​មួយ Click.'
+    description: 'បង្កើត Caption សម្រាប់ Facebook ដោយ​គ្រាន់តែ​មួយ Click.'
   },
   {
     Icon: FeaturesMagicIcon,
