@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import LandingPage from './components/LandingPage';
 import GeneratorPage from './pages/GeneratorPage';
+import DonationPage from './pages/DonationPage';
 import Footer from './components/Footer';
 
-type Page = 'landing' | 'generator';
+type Page = 'landing' | 'generator' | 'donate';
 
 const App: React.FC = () => {
   const [page, setPage] = useState<Page>('landing');
@@ -21,8 +22,19 @@ const App: React.FC = () => {
         onBack={() => navigateTo('landing')} 
       />
     );
+  } else if (page === 'donate') {
+    currentPage = (
+      <DonationPage 
+        onBack={() => navigateTo('landing')}
+      />
+    );
   } else {
-    currentPage = <LandingPage onGetStarted={handleGetStarted} />;
+    currentPage = (
+      <LandingPage 
+        onGetStarted={handleGetStarted}
+        onDonate={() => navigateTo('donate')}
+      />
+    );
   }
 
   return (

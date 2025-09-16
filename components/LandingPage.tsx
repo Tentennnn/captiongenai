@@ -3,6 +3,7 @@ import { HeaderIcon, FeaturesTargetIcon, FeaturesMagicIcon, FeaturesHashtagIcon 
 
 interface LandingPageProps {
   onGetStarted: () => void;
+  onDonate?: () => void;
 }
 
 const features = [
@@ -23,7 +24,7 @@ const features = [
   }
 ];
 
-const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
+const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted, onDonate }) => {
   return (
     <div className="min-h-screen flex flex-col p-4 sm:p-6 lg:p-8 animate-fade-in-up">
       <header className="w-full max-w-7xl mx-auto flex items-center justify-between">
@@ -33,6 +34,12 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             Caption Generator AI
             </h1>
         </div>
+        <button
+          onClick={onDonate}
+          className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-semibold py-2 px-4 rounded-lg hover:from-yellow-600 hover:to-yellow-700 transition-all duration-300"
+        >
+          គាំទ្រគម្រោង
+        </button>
       </header>
 
       <main className="flex-grow flex flex-col items-center justify-center text-center pt-10">
