@@ -19,7 +19,7 @@
 
   <br />
 
-  <a href="YOUR_LIVE_DEMO_URL_HERE" target="_blank">
+  <a href="https://capgenai.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel" />
   </a>
 </div>
