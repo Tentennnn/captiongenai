@@ -6,7 +6,7 @@ import PlatformSelector from '../components/PlatformSelector';
 import ResultCard from '../components/ResultCard';
 import LoadingAnimation from '../components/LoadingAnimation';
 import { HeaderIcon, ArrowLeftIcon, SpinnerIcon } from '../components/icons';
-import { ThemeToggle } from '../components/ThemeToggle';
+
 
 interface GeneratorPageProps {
   onBack: () => void;
@@ -93,7 +93,7 @@ const GeneratorPage: React.FC<GeneratorPageProps> = ({ onBack }) => {
             </h1>
         </div>
         <div className="absolute right-0 top-1/2 -translate-y-1/2">
-          <ThemeToggle />
+
         </div>
       </header>
 
