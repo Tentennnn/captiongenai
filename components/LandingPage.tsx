@@ -36,9 +36,9 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted, onDonate }) => 
         </div>
         <button
           onClick={onDonate}
-          className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-semibold py-2 px-4 rounded-lg hover:from-yellow-600 hover:to-yellow-700 transition-all duration-300"
+          className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-semibold py-2 px-2 rounded-lg hover:from-yellow-500 hover:to-yellow-600 transition-all duration-300"
         >
-          គាំទ្រគម្រោង
+          Donate
         </button>
       </header>
 
