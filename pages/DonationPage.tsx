@@ -65,7 +65,7 @@ const DonationPage: React.FC<DonationPageProps> = ({ onBack }) => {
               <div className="flex justify-center mb-6">
                 <div className="p-3 bg-white rounded-2xl">
                   <img 
-                    src="/assets/qr-code.svg" 
+                    src="https://i.postimg.cc/MGz9VyJb/qr-code-1.png" 
                     alt="ABA Bank QR Code" 
                     className="w-64 h-64 rounded-xl"
                   />
@@ -87,5 +87,6 @@ const DonationPage: React.FC<DonationPageProps> = ({ onBack }) => {
     </div>
   );
 };
+
 
 export default DonationPage;
